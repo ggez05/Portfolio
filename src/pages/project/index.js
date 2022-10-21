@@ -57,7 +57,7 @@ export const projects = [
     },
     website: {
       icon: <TbWorld />,
-      url: 'https://dashing-dieffenbachia-a22db9.netlify.app/',
+      url: 'https://joyful-parfait-2aa7af.netlify.app/',
     },
   },
   {
