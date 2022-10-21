@@ -1,0 +1,154 @@
+.section-about {
+    position: relative;
+}
+
+.section-about-wrapper {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr;
+
+}
+.about-width{
+    height: 600px;
+}
+
+.section-about-description {
+
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.section-about-description h2 {
+    display: block;
+    font-size: 2rem;
+    margin-bottom: 25px;
+
+    .text-animate-hover {
+        &:hover {
+            color: var(--hover-color);
+        }
+    }
+}
+
+.para1{
+    margin-top: 60px;
+}
+
+.para1, .para2, .para3
+{
+    margin-bottom: 20px;
+}
+
+.para3{
+    margin-bottom: 100px;
+}
+.progress__bar h2 {
+    font-size: 1.3rem;
+}
+
+.section-about-description {
+    grid-template-columns: 2fr 1fr;
+    gap: 2rem;
+}
+
+.section-about-description h2 {
+    font-size: 4rem;
+}
+
+.about-description-skills {
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 2rem;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .section-about-description {
+        padding-top: 0;
+    }
+
+    .about-description-skills {
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 2rem;
+    }
+
+    .section-about-description h2 {
+        font-size: 2.5rem;
+    }
+
+    .section-about-description {
+        grid-template-columns: 1fr 1fr;
+    }
+        .about-width {
+            height: 700px;
+        }
+}
+
+@media screen and (max-width: 980px) {
+    .about-description-skills {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .section-about-description {
+        grid-template-columns: 1fr;
+    }
+        .about-width {
+            height: 500px;
+        }
+                .para3 {
+                    margin-bottom: 60px;
+                }
+}
+
+@media screen and (max-width: 768px) {
+    .section-about-description h2 {
+        font-size: 2.3rem;
+    }
+
+    .about-description-skills {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .section-about-description {
+        grid-template-columns: 1fr;
+    }
+        .about-width {
+            height: 600px;
+        }
+}
+@media screen and (max-width: 559px) {
+    .about-width {
+        height: 700px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .section-about-description {
+        grid-template-columns: 1fr;
+    }
+
+    .section-about-description h2 {
+        font-size: 2rem;
+    }
+
+    .about-description-skills {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .section-about-description p {
+        font-size: 0.975rem;
+    }
+}
+@media screen and (max-width: 356px) {
+    .about-width{
+        height: 800px;
+    }
+}
+@media screen and (max-width: 315px) {
+.section-about-wrapper {
+        margin-top: 5px;
+
+    }
+                .para1 {
+                    margin-top: 10px;
+                }
+}
