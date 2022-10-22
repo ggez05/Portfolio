@@ -12,21 +12,17 @@ import {
 
 import { RiContactsLine, RiReactjsLine } from 'react-icons/ri'
 import {
-  SiFuturelearn,
   SiSass,
-  SiJquery,
-  SiExpress,
   SiRedux,
   SiCplusplus,
-  SiTailwindcss,
   SiFirebase,
 } from 'react-icons/si'
 
 import { GrGithub, GrTwitter, GrInstagram } from 'react-icons/gr'
 import { AiFillHtml5 } from 'react-icons/ai'
-import { DiCss3, DiMongodb, DiPython } from 'react-icons/di'
-import { IoLogoJavascript, IoLogoGameControllerB } from 'react-icons/io'
-import { FaNodeJs, FaGit } from 'react-icons/fa'
+import { DiCss3, DiPython } from 'react-icons/di'
+import { IoLogoJavascript } from 'react-icons/io'
+import { FaGit } from 'react-icons/fa'
 
 // sidebar menu functionality
 const sideBarMenu = [
@@ -95,6 +91,11 @@ const skillSet = [
       'https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/React_getting_started',
   },
   {
+    icon: <SiRedux className="skills-icon switch__color" />,
+    spanText: 'REDUX',
+    url: 'https://redux.js.org/introduction/getting-started',
+  },
+  {
     icon: <SiFirebase className="skills-icon switch__color" />,
     spanText: 'FIREBASE',
     url:
@@ -103,11 +104,6 @@ const skillSet = [
   {
     icon: <SiSass className="skills-icon switch__color" />,
     spanText: 'SASS',
-    url: '',
-  },
-  {
-    icon: <SiTailwindcss className="skills-icon switch__color" />,
-    spanText: 'TAILWIND',
     url: '',
   },
   {
@@ -136,11 +132,6 @@ const skillSet = [
     icon: <SiCplusplus className="skills-icon switch__color" />,
     spanText: 'C++',
     url: 'https://learn.microsoft.com/en-us/cpp/cpp/?view=msvc-170',
-  },
-  {
-    icon: <SiRedux className="skills-icon switch__color" />,
-    spanText: 'REDUX',
-    url: 'https://redux.js.org/introduction/getting-started',
   },
   {
     icon: <BsGoogle className="skills-icon switch__color" />,

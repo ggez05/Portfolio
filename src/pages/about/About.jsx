@@ -1,5 +1,5 @@
 import React from 'react'
-import myCV from '../../assets/Resume-Garvit-Bhatia.pdf'
+import myCV from '../../assets/FinalResume.pdf'
 import Cards from '../../components/skillsCards/Cards'
 // components
 import Blast from '../../components/BlastAnimation/Blast'
