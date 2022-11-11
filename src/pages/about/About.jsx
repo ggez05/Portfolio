@@ -1,5 +1,5 @@
 import React from "react";
-import myCV from "../../assets/FinalResume.pdf";
+import myCV from "../../assets/FinalResume1.pdf";
 import Cards from "../../components/skillsCards/Cards";
 // components
 import Blast from "../../components/BlastAnimation/Blast";
